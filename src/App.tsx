@@ -5,13 +5,14 @@ import './App.css';
 import { HomePage } from './app/containers/HomePage';
 
 const AppContainer = styled.div`
-  ${tw`
-      flex
-      flex-col
-      w-full
-      h-full
-
-  `}
+  ${tw `
+    flex
+    flex-col
+    w-full
+    h-full
+    items-center
+    overflow-x-hidden
+  `};
 `;
 function App() 
 {
